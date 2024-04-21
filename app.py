@@ -3,9 +3,9 @@ import pandas as pd
 import xlrd
 
 
-affiliateRates = pd.read_excel(r'test-affiliate-rates.xlsx')
-orders = pd.read_excel(r'test-orders.xlsx')
-currencyRates = pd.read_excel(r'test-currency-rates.xlsx')
+affiliateRates = pd.read_excel(r'af-rates.xlsx')
+orders = pd.read_excel(r'orders.xlsx')
+currencyRates = pd.read_excel(r'cur-rates.xlsx')
 
 #i decided to copy the orders dataframe and work on the copied one to avoid any casualties
 orders_mod = orders
